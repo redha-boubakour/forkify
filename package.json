@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redha-boubakour/forkify.git"
+  },
+  "author": "Redha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redha-boubakour/forkify/issues"
+  },
+  "homepage": "https://github.com/redha-boubakour/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
