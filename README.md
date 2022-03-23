@@ -1,2 +1,2 @@
 # forkify
-Js Course - Jonas Schedmann
+JS Course - Jonas Schedmann
