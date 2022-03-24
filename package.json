@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Recipe app",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html && parcel watch index.html",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -19,5 +19,9 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.0",
     "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
