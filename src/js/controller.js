@@ -16,14 +16,13 @@ const controlRecipes = async function () {
     // Render spinner
     recipeView.renderSpinner();
 
-    // Loading recipe
+    // Load recipe
     await model.loadRecipe(id);
-    const { recipe } = model.state;
 
-    // Rendering recipe
+    // Render recipe
     recipeView.render(model.state.recipe);
   } catch (error) {
-    alert(error);
+    recipeView.renderError();
   }
 };
 
